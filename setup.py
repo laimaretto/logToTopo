@@ -1,16 +1,19 @@
 from setuptools import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name='logToTopo',
-    version='1.0.0',
+    version='1.0.1',
     description='A simple topology generation tool',
-    long_description='A tool to generate a topology from the output of show router inteface command.',
+    long_description=long_description,
     long_description_content_type='text/x-rst',
     url='https://github.com/laimaretto/logToTopo',
     author='Lucas Aimaretto',
     author_email='laimaretto@gmail.com',
     license='BSD 3-clause',
-    packages=['src/taskAutom'],
+    packages=['src/logToTopo'],
     install_requires=['pandas==1.5.2',
                       'pyvis==0.3.1',
                       ],

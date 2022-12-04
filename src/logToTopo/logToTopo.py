@@ -130,7 +130,7 @@ def getDf(xlsFile, sheetName='sh_rtr_iface'):
 def main():
 
     parser1 = argparse.ArgumentParser(description='Topology Frapher', prog='PROG', usage='%(prog)s [options]')
-    parser1.add_argument('-v'  ,'--version',     help='Version', action='version', version='Lucas Aimaretto - (c)2022 - laimaretto@gmail.com - Version: 1.0.0' )
+    parser1.add_argument('-v'  ,'--version',     help='Version', action='version', version='Lucas Aimaretto - (c)2022 - laimaretto@gmail.com - Version: 1.0.1' )
 
     parser1.add_argument('-xf'  ,'--xlsFile', type=str, required=True, help='Name of Excel file where information about interfaces and subnets, reside.')
     parser1.add_argument('-xs'  ,'--xlsSheetName', type=str, default='sh_rtr_iface', help='Name of excel sheet, where data resides.')
