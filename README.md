@@ -17,7 +17,7 @@ For Windows users, make sure you have Python and [PIP](https://pip.pypa.io/en/st
 ```bash
 py -m pip install getTopo
 ```
---
+---
 ## Usage ##
 
 1) Getting data
